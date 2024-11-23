@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      testing just
+    THIS IS MY FIRST REACT APP
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
