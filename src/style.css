@@ -1,0 +1,28 @@
+*, *::before, *::after {box-sizing: border-box; margin: 0; padding: 0;}
+body {
+	background-color: #202020;
+	color: white;
+	/*border: 1px solid white;*/
+}
+.Container {
+	position: absolute;
+	left: 50%; top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+	width: min(480px, 100vw);
+	padding: 10px;
+	/*border: 1px solid white;*/
+}
+.App {
+	display: flex;
+		justify-content: center;
+		align-items: center;
+	padding: 12px;
+	width: 100%;
+	border-radius: 8px;
+	border: 1px solid white;
+}
