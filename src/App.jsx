@@ -4,10 +4,10 @@ function App() {
 	return (
 		<div className="Container">
 			<div className="App">
-				THIS IS MY FIRST REACT APP
+				FIRST BOX
 			</div>
 			<div className="App">
-				TESTING
+				SECOND BOX
 			</div>
 			<test />
 		</div>
