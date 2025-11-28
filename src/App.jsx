@@ -1,15 +1,13 @@
 import './style.css';
+import { Button, ButtonRegular } from './Button.jsx';
 
 function App() {
 	return (
-		<div className="Container">
-			<div className="App">
-				FIRST BOX
-			</div>
-			<div className="App">
-				SECOND BOX
-			</div>
-			<test />
+		<div className="app-container">
+			<Button />
+			<ButtonRegular />
+			<div className="btn">FIRST BOX</div>
+			<div className="btn">SECOND BOX</div>
 		</div>
 	);
 }
